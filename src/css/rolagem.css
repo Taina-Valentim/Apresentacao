@@ -1,0 +1,26 @@
+/* Works on Firefox */
+
+*{
+  scrollbar-width: thin;
+  scrollbar-color: #ae00ff #070d12;
+}
+
+/* Works on Chrome, Edge, and Safari */
+
+/* TODO O CONJUNTO BARRA + FUNDO ALÉM DA BARRA*/
+*::-webkit-scrollbar{
+  width: 11px;
+}
+
+/* FUNDO FORA DA BARRA DE ROLAGEM*/
+*::-webkit-scrollbar-track{
+  background: #070d12;
+  border-radius: 22px;
+}
+
+/* A BARRA EM SI*/
+*::-webkit-scrollbar-thumb{
+  background-color: #ae00ff;
+  border-radius: 22px;
+  border: 3px solid #070d12;
+}
